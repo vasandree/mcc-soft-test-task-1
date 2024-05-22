@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.guideContainer {
+    flex: 2;
+    width: 100%;
+    min-width: 300px;
+    margin-right: 10px;
+}
+
+.workspaceContainer {
+    flex: 2;
+    min-width: 300px;
+    background-color: rgba(204, 204, 204, 0.6);
+    border: 1px solid rgb(152, 152, 152);
+    border-radius: 8px;
+}
+
+.workspace {
+    height: 400px;
+    overflow: auto;
+    padding: 0 16px;
+    border-top: 1px solid rgb(152, 152, 152);
+    border-bottom: 1px solid rgb(152, 152, 152);
+    margin-top: 5px;
+    background-color: #ffffff;
+}
+
+.footer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnContainer {
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

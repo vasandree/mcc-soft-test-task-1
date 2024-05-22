@@ -1,0 +1,21 @@
+.guide {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    width: 80%;
+}
+
+.guide h2 {
+    margin-top: 0;
+}
+
+.guide ul {
+    padding-left: 20px;
+}
+
+.guide li {
+    margin-bottom: 10px;
+}
